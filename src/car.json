@@ -1,0 +1,402 @@
+[
+    {
+        "productName": "Model S",
+        "productImage": "https://i.ibb.co/nzdc9My/pexels-photo-2920064.jpg",
+        "brandName": "Tesla",
+        "description": "An all-electric sedan offering impressive range, high performance, and advanced technology.",
+        "price": 79999,
+        "category": "Sedan",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T12:30:00Z"
+    },
+    {
+        "productName": "Mustang",
+        "productImage": "https://i.ibb.co/sQQcs52/pexels-photo-376361.jpg",
+        "brandName": "Ford",
+        "description": "A classic American muscle car known for its powerful engines and aggressive styling.",
+        "price": 55999,
+        "category": "Coupe",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T12:32:00Z"
+    },
+    {
+        "productName": "Civic",
+        "productImage": "https://i.ibb.co/ydkRSR0/pexels-photo-3786092.webp",
+        "brandName": "Honda",
+        "description": "A compact car known for its reliability, fuel efficiency, and affordability.",
+        "price": 22999,
+        "category": "Sedan",
+        "ratings": 4.6,
+        "creationDate": "2024-08-16T12:34:00Z"
+    },
+    {
+        "productName": "Camry",
+        "productImage": "https://i.ibb.co/svkT9mT/pexels-photo-3786091.webp",
+        "brandName": "Toyota",
+        "description": "A mid-sized sedan offering a blend of comfort, fuel efficiency, and reliability.",
+        "price": 24999,
+        "category": "Sedan",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T12:36:00Z"
+    },
+    {
+        "productName": "Accord",
+        "productImage": "https://i.ibb.co/ChhHt6g/pexels-photo-2036544.jpg",
+        "brandName": "Honda",
+        "description": "A mid-sized sedan known for its spacious interior, fuel efficiency, and reliability.",
+        "price": 27999,
+        "category": "Sedan",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T12:38:00Z"
+    },
+    {
+        "productName": "Wrangler",
+        "productImage": "https://i.ibb.co/TwdHNVv/pexels-photo-210019.jpg",
+        "brandName": "Jeep",
+        "description": "An off-road SUV known for its ruggedness, iconic design, and off-road capabilities.",
+        "price": 40999,
+        "category": "SUV",
+        "ratings": 4.6,
+        "creationDate": "2024-08-16T12:40:00Z"
+    },
+    {
+        "productName": "Corvette",
+        "productImage": "https://example.com/images/corvette.jpg",
+        "brandName": "Chevrolet",
+        "description": "A high-performance sports car known for its powerful engine, sleek design, and cutting-edge technology.",
+        "price": 64999,
+        "category": "Coupe",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T12:42:00Z"
+    },
+    {
+        "productName": "F-150",
+        "productImage": "https://i.ibb.co/Hx1s1V5/pexels-photo-170811.jpg",
+        "brandName": "Ford",
+        "description": "A full-sized pickup truck known for its durability, towing capacity, and versatility.",
+        "price": 34999,
+        "category": "Truck",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T12:44:00Z"
+    },
+    {
+        "productName": "Silverado",
+        "productImage": "https://i.ibb.co/nzdc9My/pexels-photo-2920064.jpg",
+        "brandName": "Chevrolet",
+        "description": "A full-sized pickup truck offering a balance of power, durability, and advanced features.",
+        "price": 36999,
+        "category": "Truck",
+        "ratings": 4.6,
+        "creationDate": "2024-08-16T12:46:00Z"
+    },
+    {
+        "productName": "Model X",
+        "productImage": "https://i.ibb.co/svkT9mT/pexels-photo-3786091.webp",
+        "brandName": "Tesla",
+        "description": "An all-electric SUV offering impressive range, performance, and advanced technology.",
+        "price": 89999,
+        "category": "SUV",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T12:48:00Z"
+    },
+    {
+        "productName": "Tundra",
+        "productImage": "https://i.ibb.co/Hx1s1V5/pexels-photo-170811.jpg",
+        "brandName": "Toyota",
+        "description": "A full-sized pickup truck known for its reliability, durability, and off-road capability.",
+        "price": 39999,
+        "category": "Truck",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T12:50:00Z"
+    },
+    {
+        "productName": "Cayenne",
+        "productImage": "https://example.com/images/cayenne.jpg",
+        "brandName": "Porsche",
+        "description": "A luxury SUV offering powerful engines, sporty handling, and a premium interior.",
+        "price": 76999,
+        "category": "SUV",
+        "ratings": 4.9,
+        "creationDate": "2024-08-16T12:52:00Z"
+    },
+    {
+        "productName": "Cherokee",
+        "productImage": "https://i.ibb.co/ChhHt6g/pexels-photo-2036544.jpg",
+        "brandName": "Jeep",
+        "description": "A compact SUV offering a blend of off-road capability, comfort, and technology.",
+        "price": 35999,
+        "category": "SUV",
+        "ratings": 4.5,
+        "creationDate": "2024-08-16T12:54:00Z"
+    },
+    {
+        "productName": "3 Series",
+        "productImage": "https://i.ibb.co/TwdHNVv/pexels-photo-210019.jpg",
+        "brandName": "BMW",
+        "description": "A compact executive car offering a blend of performance, luxury, and advanced technology.",
+        "price": 41999,
+        "category": "Sedan",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T12:56:00Z"
+    },
+    {
+        "productName": "RAV4",
+        "productImage": "https://i.ibb.co/svkT9mT/pexels-photo-3786091.webp",
+        "brandName": "Toyota",
+        "description": "A compact SUV offering a blend of fuel efficiency, reliability, and versatility.",
+        "price": 30999,
+        "category": "SUV",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T12:58:00Z"
+    },
+    {
+        "productName": "GLC",
+        "productImage": "https://i.ibb.co/TwdHNVv/pexels-photo-210019.jpg",
+        "brandName": "Mercedes-Benz",
+        "description": "A luxury compact SUV offering a blend of comfort, performance, and advanced technology.",
+        "price": 50999,
+        "category": "SUV",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T13:00:00Z"
+    },
+    {
+        "productName": "A8",
+        "productImage": "https://i.ibb.co/svkT9mT/pexels-photo-3786091.webp",
+        "brandName": "Audi",
+        "description": "A full-sized luxury sedan offering advanced technology, powerful engines, and a premium interior.",
+        "price": 84999,
+        "category": "Sedan",
+        "ratings": 4.9,
+        "creationDate": "2024-08-16T13:02:00Z"
+    },
+    {
+        "productName": "C-Class",
+        "productImage": "https://i.ibb.co/Hx1s1V5/pexels-photo-170811.jpg",
+        "brandName": "Mercedes-Benz",
+        "description": "A compact luxury sedan offering a blend of comfort, technology, and performance.",
+        "price": 41999,
+        "category": "Sedan",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T13:04:00Z"
+    },
+    {
+        "productName": "CX-5",
+        "productImage": "https://i.ibb.co/ChhHt6g/pexels-photo-2036544.jpg",
+        "brandName": "Mazda",
+        "description": "A compact crossover SUV offering sporty handling, stylish design, and advanced safety features.",
+        "price": 28999,
+        "category": "SUV",
+        "ratings": 4.6,
+        "creationDate": "2024-08-16T13:06:00Z"
+    },
+    {
+        "productName": "Challenger",
+        "productImage": "https://i.ibb.co/svkT9mT/pexels-photo-3786091.webp",
+        "brandName": "Dodge",
+        "description": "A retro-styled muscle car offering powerful engines, aggressive styling, and a modern interior.",
+        "price": 39999,
+        "category": "Coupe",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T13:08:00Z"
+    },
+    {
+        "productName": "Tiguan",
+        "productImage": "https://i.ibb.co/sQQcs52/pexels-photo-376361.jpg",
+        "brandName": "Volkswagen",
+        "description": "A compact SUV offering a balance of practicality, comfort, and advanced technology.",
+        "price": 32999,
+        "category": "SUV",
+        "ratings": 4.6,
+        "creationDate": "2024-08-16T13:10:00Z"
+    },
+    {
+        "productName": "Escalade",
+        "productImage": "https://i.ibb.co/Hx1s1V5/pexels-photo-170811.jpg",
+        "brandName": "Cadillac",
+        "description": "A full-sized luxury SUV offering a powerful engine, spacious interior, and cutting-edge technology.",
+        "price": 89999,
+        "category": "SUV",
+        "ratings": 4.9,
+        "creationDate": "2024-08-16T13:12:00Z"
+    },
+    {
+        "productName": "S-Class",
+        "productImage": "https://i.ibb.co/nzdc9My/pexels-photo-2920064.jpg",
+        "brandName": "Mercedes-Benz",
+        "description": "A full-sized luxury sedan offering advanced technology, powerful engines, and a luxurious interior.",
+        "price": 94999,
+        "category": "Sedan",
+        "ratings": 4.9,
+        "creationDate": "2024-08-16T13:14:00Z"
+    },
+    {
+        "productName": "Range Rover",
+        "productImage": "https://i.ibb.co/svkT9mT/pexels-photo-3786091.webp",
+        "brandName": "Land Rover",
+        "description": "A luxury SUV offering a combination of off-road capability, advanced technology, and premium comfort.",
+        "price": 104999,
+        "category": "SUV",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T13:16:00Z"
+    },
+    {
+        "productName": "911",
+        "productImage": "https://i.ibb.co/TwdHNVv/pexels-photo-210019.jpg",
+        "brandName": "Porsche",
+        "description": "A high-performance sports car known for its precise handling, powerful engines, and timeless design.",
+        "price": 114999,
+        "category": "Coupe",
+        "ratings": 4.9,
+        "creationDate": "2024-08-16T13:18:00Z"
+    },
+    {
+        "productName": "Macan",
+        "productImage": "https://i.ibb.co/ydkRSR0/pexels-photo-3786092.webp",
+        "brandName": "Porsche",
+        "description": "A luxury compact SUV offering sporty handling, powerful engines, and a premium interior.",
+        "price": 57999,
+        "category": "SUV",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T13:20:00Z"
+    },
+    {
+        "productName": "X5",
+        "productImage": "https://i.ibb.co/Hx1s1V5/pexels-photo-170811.jpg",
+        "brandName": "BMW",
+        "description": "A mid-sized luxury SUV offering a blend of performance, technology, and comfort.",
+        "price": 59999,
+        "category": "SUV",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T13:22:00Z"
+    },
+    {
+        "productName": "CR-V",
+        "productImage": "https://i.ibb.co/ChhHt6g/pexels-photo-2036544.jpg",
+        "brandName": "Honda",
+        "description": "A compact SUV offering a balance of practicality, fuel efficiency, and reliability.",
+        "price": 27999,
+        "category": "SUV",
+        "ratings": 4.6,
+        "creationDate": "2024-08-16T13:24:00Z"
+    },
+    {
+        "productName": "Pilot",
+        "productImage": "https://i.ibb.co/sQQcs52/pexels-photo-376361.jpg",
+        "brandName": "Honda",
+        "description": "A mid-sized SUV offering a spacious interior, advanced safety features, and versatile performance.",
+        "price": 34999,
+        "category": "SUV",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T13:26:00Z"
+    },
+    {
+        "productName": "Mustang Mach-E",
+        "productImage": "https://i.ibb.co/nzdc9My/pexels-photo-2920064.jpg",
+        "brandName": "Ford",
+        "description": "An all-electric SUV offering a combination of sporty performance, advanced technology, and modern design.",
+        "price": 52999,
+        "category": "SUV",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T13:28:00Z"
+    },
+    {
+        "productName": "X3",
+        "productImage": "https://i.ibb.co/ChhHt6g/pexels-photo-2036544.jpg",
+        "brandName": "BMW",
+        "description": "A compact luxury SUV offering a blend of performance, technology, and comfort.",
+        "price": 49999,
+        "category": "SUV",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T13:30:00Z"
+    },
+    {
+        "productName": "Explorer",
+        "productImage": "https://i.ibb.co/ydkRSR0/pexels-photo-3786092.webp",
+        "brandName": "Ford",
+        "description": "A mid-sized SUV offering a blend of practicality, technology, and off-road capability.",
+        "price": 42999,
+        "category": "SUV",
+        "ratings": 4.6,
+        "creationDate": "2024-08-16T13:32:00Z"
+    },
+    {
+        "productName": "A4",
+        "productImage": "https://i.ibb.co/TwdHNVv/pexels-photo-210019.jpg",
+        "brandName": "Audi",
+        "description": "A compact luxury sedan offering advanced technology, a premium interior, and sporty handling.",
+        "price": 41999,
+        "category": "Sedan",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T13:34:00Z"
+    },
+    {
+        "productName": "XC90",
+        "productImage": "https://i.ibb.co/svkT9mT/pexels-photo-3786091.webp",
+        "brandName": "Volvo",
+        "description": "A luxury SUV offering advanced safety features, a spacious interior, and modern Scandinavian design.",
+        "price": 69999,
+        "category": "SUV",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T13:36:00Z"
+    },
+    {
+        "productName": "Model 3",
+        "productImage": "https://i.ibb.co/TwdHNVv/pexels-photo-210019.jpg",
+        "brandName": "Tesla",
+        "description": "An all-electric compact sedan offering impressive range, high performance, and advanced technology.",
+        "price": 44999,
+        "category": "Sedan",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T13:38:00Z"
+    },
+    {
+        "productName": "Velar",
+        "productImage": "https://i.ibb.co/Hx1s1V5/pexels-photo-170811.jpg",
+        "brandName": "Land Rover",
+        "description": "A luxury SUV offering a blend of off-road capability, modern design, and premium comfort.",
+        "price": 68999,
+        "category": "SUV",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T13:40:00Z"
+    },
+    {
+        "productName": "Alfa Romeo Giulia",
+        "productImage": "https://i.ibb.co/ChhHt6g/pexels-photo-2036544.jpg",
+        "brandName": "Alfa Romeo",
+        "description": "A compact luxury sedan offering sporty handling, powerful engines, and Italian styling.",
+        "price": 41999,
+        "category": "Sedan",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T13:42:00Z"
+    },
+    {
+        "productName": "Levante",
+        "productImage": "https://i.ibb.co/TwdHNVv/pexels-photo-210019.jpg",
+        "brandName": "Maserati",
+        "description": "A luxury SUV offering a combination of Italian craftsmanship, powerful engines, and sporty handling.",
+        "price": 84999,
+        "category": "SUV",
+        "ratings": 4.8,
+        "creationDate": "2024-08-16T13:44:00Z"
+    },
+    {
+        "productName": "Q7",
+        "productImage": "https://i.ibb.co/Hx1s1V5/pexels-photo-170811.jpg",
+        "brandName": "Audi",
+        "description": "A mid-sized luxury SUV offering a blend of advanced technology, spacious interior, and sporty handling.",
+        "price": 64999,
+        "category": "SUV",
+        "ratings": 4.7,
+        "creationDate": "2024-08-16T13:46:00Z"
+    },
+    {
+        "productName": "GLA",
+        "productImage": "https://i.ibb.co/nzdc9My/pexels-photo-2920064.jpg",
+        "brandName": "Mercedes-Benz",
+        "description": "A compact luxury SUV offering a blend of comfort, technology, and performance.",
+        "price": 36999,
+        "category": "SUV",
+        "ratings": 4.6,
+        "creationDate": "2024-08-16T13:48:00Z"
+    }
+]
