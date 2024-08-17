@@ -29,19 +29,21 @@ const productCard = ({product}) => {
           <h2 className="flex text-xl font-bold">{productName}</h2>
           <p className=" flex gap-1 my-1 text-primary">{description}</p>
           <div className="flex gap-4">
-            <p className="flex gap-1 my-1">
-              <MdOutlinePeople className="my-1" />
-              {brandName}
+            <p className="flex gap-1 my-1 font-semibold">
+            Brand: {brandName}
             </p>
-            <p className="flex gap-1 my-1">
-              <IoMdTime className="my-1" />
-              {category}
+            <p className="flex gap-1 my-1 font-semibold">
+             
+              Category: {category}
             </p>
           </div>
 
           <div className="flex gap-4">
-            <h2 className="text-xl font-bold">{price}</h2>
-            <p className=" flex gap-1 my-1 text-primary">{creationDate}</p>
+            <p className=" flex gap-1 my-1 font-semibold">Ratings: {ratings}</p>
+            <p className=" flex gap-1 my-1 font-semibold">Date: {creationDate}</p>
+          </div>
+          <div>
+          <h2 className="text-xl font-bold">Price: {price}$</h2>
           </div>
 
          

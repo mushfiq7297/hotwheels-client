@@ -16,10 +16,10 @@ const Navbar = () => {
       );
     
       return (
-        <div className="navbar fixed px-4 z-10 shadow-lg top-0 bg-indigo-950 text-white animate__animated animate__slideInDown font-stack">
+        <div className="mb-10 navbar fixed px-4 z-10 shadow-lg top-0 bg-base text-base animate__animated animate__slideInDown font-stack">
           <div className="navbar-start">
             <div className="dropdown">
-              <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+              <div tabIndex={0} role="button" className="btn btn-ghost lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
@@ -37,19 +37,22 @@ const Navbar = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-lg dropdown-content mt-2 z-[1] p-4 shadow    text-white text-sm bg-indigo-500 rounded-b-lg"
+                className="menu menu-lg dropdown-content mt-2 z-[1] p-4 shadow text-white text-sm bg-indigo-500 rounded-b-md"
               >
-                {navLinks}
+               {navLinks}
               </ul>
             </div>
             <a className="font-bold text-2xl">
               <div className="flex gap-2">
-                <h2 className="text-2xl my-2  lg:text-3xl">HotWheels</h2>
+
+               <Link to="/">
+               <h2 className="text-2xl my-2  lg:text-3xl">HotWheels</h2>
+               </Link>
               </div>
             </a>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 ">{navLinks}</ul>
+            <ul className="menu menu-horizontal px-1 "></ul>
           </div>
           <div className="navbar-end gap-2">
             {user ? (

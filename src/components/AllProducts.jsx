@@ -17,7 +17,7 @@ const AllProducts = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             const response = await fetch(
-                `http://localhost:5000/products?page=${currentPage}&limit=${productsPerPage}&search=${searchTerm}&brandName=${brandName}&category=${category}&minPrice=${minPrice}&maxPrice=${maxPrice}&sortBy=${sortBy}&sortOrder=${sortOrder}`
+                `https://y-pied-alpha.vercel.app/products?page=${currentPage}&limit=${productsPerPage}&search=${searchTerm}&brandName=${brandName}&category=${category}&minPrice=${minPrice}&maxPrice=${maxPrice}&sortBy=${sortBy}&sortOrder=${sortOrder}`
             );
             const data = await response.json();
             setProducts(data.products);
@@ -51,16 +51,25 @@ const AllProducts = () => {
     };
 
     return (
-        <div>
+        <div className="py-10">
             <div className="w-4/5 mx-auto font-stack">
-                <div className="flex mb-4">
-                    <input
+            <div className="flex flex-col md:flex-row">
+            <div className="w-full">
+            <input
                         type="text"
                         placeholder="Search products..."
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                         className="px-4 py-2 border border-gray-300 rounded-l-md flex-grow"
                     />
+                     <button
+                        onClick={handleSearch}
+                        className="px-4 py-2 bg-primary text-white rounded-r-md"
+                    >
+                        Search
+                    </button>
+            </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-4 gap-2 my-2">
                     <select
                         value={brandName}
                         onChange={(e) => setBrandName(e.target.value)}
@@ -69,6 +78,18 @@ const AllProducts = () => {
                         <option value="">All Brands</option>
                         <option value="Tesla">Tesla</option>
                         <option value="Ford">Ford</option>
+                        <option value="Honda">Honda</option>
+                        <option value="Audi">Audi</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Jeep">Jeep</option>
+                        <option value="Chevrolet">Chevrolet</option>
+                        <option value="Porsche">Porsche</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Volvo">Volvo</option>
+                        <option value="Land Rover">Land Rover</option>
+                        <option value="Alfa Romeo">Alfa Romeo</option>
+                        <option value="Maserati">Maserati</option>
+
                         {/* Add more brand options here */}
                     </select>
                     <select
@@ -79,6 +100,9 @@ const AllProducts = () => {
                         <option value="">All Categories</option>
                         <option value="SUV">SUV</option>
                         <option value="Sedan">Sedan</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Truck">Truck</option>
+                        
                         {/* Add more category options here */}
                     </select>
                     <input
@@ -95,14 +119,10 @@ const AllProducts = () => {
                         onChange={(e) => setMaxPrice(e.target.value)}
                         className="px-4 py-2 border border-gray-300 rounded-r-md"
                     />
-                    <button
-                        onClick={handleSearch}
-                        className="px-4 py-2 bg-blue-500 text-white rounded-r-md"
-                    >
-                        Search
-                    </button>
+                   
 
                 </div>
+            </div>
                 <div className="flex mb-4">
                     {/* Search and filter elements */}
                     <select
