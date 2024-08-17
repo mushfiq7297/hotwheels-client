@@ -27,6 +27,7 @@ const productCard = ({product}) => {
         </figure>
         <div className="card-body">
           <h2 className="flex text-xl font-bold">{productName}</h2>
+          <p className=" flex gap-1 my-1 text-primary">{description}</p>
           <div className="flex gap-4">
             <p className="flex gap-1 my-1">
               <MdOutlinePeople className="my-1" />
@@ -43,9 +44,7 @@ const productCard = ({product}) => {
             <p className=" flex gap-1 my-1 text-primary">{creationDate}</p>
           </div>
 
-          <Link to={`/viewDetailsPage/${_id}`}>
-            <button className="btn btn-primary w-full">View Details</button>
-          </Link>
+         
         </div>
       </div>
         </div>
