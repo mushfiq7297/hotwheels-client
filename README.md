@@ -1,5 +1,5 @@
 <h2>Live Link: <a href="https://hotwheels-2b915.web.app/">Hot Wheels</a></h2>
-<h2>Server Side Code: <a href="https://github.com/mushfiq7297/TechWave-Newspaper-Server">Server</a></h2>
+<h2>Server Side Code: <a href="https://github.com/mushfiq7297/hotWheels-serever">Server</a></h2>
 <h1>Project Overview:</h1>
 <p>This project will focus on implementing pagination, searching, categorization and sorting of products.
 </p>
