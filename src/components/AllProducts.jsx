@@ -10,19 +10,22 @@ const AllProducts = () => {
     const [category, setCategory] = useState('');
     const [minPrice, setMinPrice] = useState(''); // Store as string
     const [maxPrice, setMaxPrice] = useState(''); // Store as string
+    const [sortBy, setSortBy] = useState('dateAdded'); // Default sort by date added
+    const [sortOrder, setSortOrder] = useState('desc'); // Default order is descending
     const productsPerPage = 9;
 
     useEffect(() => {
         const fetchProducts = async () => {
             const response = await fetch(
-                `http://localhost:5000/products?page=${currentPage}&limit=${productsPerPage}&search=${searchTerm}&brandName=${brandName}&category=${category}&minPrice=${minPrice}&maxPrice=${maxPrice}`
+                `http://localhost:5000/products?page=${currentPage}&limit=${productsPerPage}&search=${searchTerm}&brandName=${brandName}&category=${category}&minPrice=${minPrice}&maxPrice=${maxPrice}&sortBy=${sortBy}&sortOrder=${sortOrder}`
             );
             const data = await response.json();
             setProducts(data.products);
             setTotalPages(data.totalPages);
         };
         fetchProducts();
-    }, [currentPage, searchTerm, brandName, category, minPrice, maxPrice]);
+    }, [currentPage, searchTerm, brandName, category, minPrice, maxPrice, sortBy, sortOrder]);
+    
 
     const handlePreviousPage = () => {
         if (currentPage > 1) {
@@ -38,6 +41,13 @@ const AllProducts = () => {
 
     const handleSearch = () => {
         setCurrentPage(1); // Reset to first page when search is triggered
+    };
+
+    const handleSortChange = (e) => {
+        const [sortField, sortOrder] = e.target.value.split('-');
+        setSortBy(sortField);
+        setSortOrder(sortOrder);
+        setCurrentPage(1); // Reset to first page when sorting is changed
     };
 
     return (
@@ -91,6 +101,19 @@ const AllProducts = () => {
                     >
                         Search
                     </button>
+
+                </div>
+                <div className="flex mb-4">
+                    {/* Search and filter elements */}
+                    <select
+                        value={`${sortBy}-${sortOrder}`}
+                        onChange={handleSortChange}
+                        className="px-4 py-2 border border-gray-300 rounded-md"
+                    >
+                        <option value="dateAdded-desc">Date Added: Newest First</option>
+                        <option value="price-asc">Price: Low to High</option>
+                        <option value="price-desc">Price: High to Low</option>
+                    </select>
                 </div>
                 <div className="grid gap-3 px-auto content-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {products.map((product) => (
